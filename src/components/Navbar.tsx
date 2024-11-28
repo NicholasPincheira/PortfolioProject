@@ -25,7 +25,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-3" onClick={closeMenu}>
             <img
-              src="/icons/nicholas.jpg"
+              src={`${import.meta.env.BASE_URL}icons/nicholas.jpg`}
               alt="Avatar"
               className="w-10 h-10 rounded-full border-2 border-indigo-500"
             />

@@ -8,7 +8,7 @@ const posts = [
     excerpt: 'Aprende las mejores prácticas para comenzar en esta biblioteca de JS.',
     date: '2024-03-15',
     readTime: '5 min',
-    image: '/img/react.webp',
+    image: 'img/react.webp',
     category: 'React'
   },
   {
@@ -16,7 +16,7 @@ const posts = [
     excerpt: 'Una guía completa para comenzar con Javascript en tus proyectos.',
     date: '2024-03-10',
     readTime: '8 min',
-    image: '/img/javascript.png',
+    image: 'img/javascript.png',
     category: 'Javascript'
   },
   {
@@ -24,7 +24,7 @@ const posts = [
     excerpt: 'Explorando los fundamentos de la arquitectura de microservicios.',
     date: '2024-03-05',
     readTime: '10 min',
-    image: '/img/microservicios.webp',
+    image: 'img/microservicios.webp',
     category: 'Backend'
   },
   {
@@ -32,7 +32,7 @@ const posts = [
     excerpt: 'Como crear un proyecto Django de cero.',
     date: '2024-04-05',
     readTime: '10 min',
-    image: '/img/django.jpg',
+    image: 'img/django.jpg',
     category: 'Frameworks'
   }
 ];

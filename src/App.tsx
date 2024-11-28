@@ -15,7 +15,7 @@ import Experience from './pages/Experience';
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/PortfolioProject">
         <Routes>
           {/* Admin Routes */}
           <Route path="/admin/login" element={<Login />} />

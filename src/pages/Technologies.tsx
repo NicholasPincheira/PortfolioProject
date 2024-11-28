@@ -11,37 +11,37 @@ const techCategories = [
       {
         name: "PHP",
         description: "Lenguaje de programación para desarrollo web",
-        image: "/tecnologias/php.webp",
+        image: "tecnologias/php.webp",
         features: ["Backend", "OOP", "Web Development", "Scripting"]
       },
       {
         name: "Python",
         description: "Lenguaje versátil para múltiples propósitos",
-        image: "/tecnologias/python.jpg",
+        image: "tecnologias/python.jpg",
         features: ["Data Science", "Web", "AI/ML", "Scripting"]
       },
       {
         name: "Java",
         description: "Lenguaje empresarial multiplataforma",
-        image: "/tecnologias/java.jpg",
+        image: "tecnologias/java.jpg",
         features: ["Enterprise", "Android", "Spring", "Microservices"]
       },
       {
         name: "JavaScript",
         description: "Lenguaje principal del desarrollo web moderno",
-        image: "/tecnologias/javascript.png",
+        image: "tecnologias/javascript.png",
         features: ["Frontend", "Backend", "Full-stack", "Mobile"]
       },
       {
         name: "TypeScript",
         description: "JavaScript con tipos estáticos",
-        image: "/tecnologias/typescript.png",
+        image: "tecnologias/typescript.png",
         features: ["Type Safety", "Enterprise", "Scalable", "Modern"]
       },
       {
         name: "SQL",
         description: "Lenguaje de consulta estructurado",
-        image: "/tecnologias/sql.jpg",
+        image: "tecnologias/sql.jpg",
         features: ["Databases", "Query", "Data Analysis", "RDBMS"]
       }
     ]
@@ -52,25 +52,25 @@ const techCategories = [
       {
         name: "Laravel",
         description: "Framework PHP moderno con arquitectura MVC",
-        image: "/tecnologias/laravel.webp",
+        image: "tecnologias/laravel.webp",
         tools: ["PHP", "MySQL", "Composer", "Artisan CLI"]
       },
       {
         name: "Django",
         description: "Framework Python de alto rendimiento",
-        image: "/tecnologias/django.jpg",
+        image: "tecnologias/django.jpg",
         tools: ["Python", "PostgreSQL", "PythonAnywhere", "Django REST"]
       },
       {
         name: "Spring",
         description: "Framework empresarial Java de alto rendimiento",
-        image: "/tecnologias/spring.png",
+        image: "tecnologias/spring.png",
         tools: ["Java SE", "SQL Server", "Maven", "Spring Boot"]
       },
       {
         name: "Node.js",
         description: "Runtime de JavaScript para backend",
-        image: "/tecnologias/node.jpg",
+        image: "tecnologias/node.jpg",
         tools: ["Express", "MongoDB", "npm", "TypeScript"]
       }
     ]
@@ -81,25 +81,25 @@ const techCategories = [
       {
         name: "WordPress",
         description: "CMS más popular del mundo",
-        image: "/tecnologias/wordpress.jpg",
+        image: "tecnologias/wordpress.jpg",
         tools: ["PHP", "MySQL", "WooCommerce", "Elementor"]
       },
       {
         name: "PrestaShop",
         description: "Plataforma e-commerce open source",
-        image: "/tecnologias/prestashop.jpg",
+        image: "tecnologias/prestashop.jpg",
         tools: ["PHP", "MySQL", "Smarty", "PrestaShop Modules"]
       },
       {
         name: "Odoo",
         description: "Suite empresarial todo en uno",
-        image: "/tecnologias/odoo.jpg",
+        image: "tecnologias/odoo.jpg",
         tools: ["Python", "PostgreSQL", "XML", "JavaScript"]
       },
       {
         name: "Desarrollo de Modulos",
         description: "Para diferentes CMS basados en PHP",
-        image: "/tecnologias/modulos.webp",
+        image: "tecnologias/modulos.webp",
         tools: ["PHP", "MySQL", "Smarty", "PrestaShop Modules"]
       },
     ]
@@ -110,37 +110,37 @@ const techCategories = [
       {
         name: "React.js",
         description: "Biblioteca JavaScript para UI",
-        image: "/tecnologias/react.jpg",
+        image: "tecnologias/react.jpg",
         tools: ["Next.js", "Redux", "React Router", "Styled Components"]
       },
       {
         name: "Modern CSS",
         description: "Tecnologías modernas de estilizado",
-        image: "/tecnologias/css.jpg",
+        image: "tecnologias/css.jpg",
         tools: ["TailwindCSS", "Bootstrap", "SASS", "CSS Modules"]
       },
       {
         name: "JavaScript",
         description: "Lenguaje principal del desarrollo web",
-        image: "/tecnologias/javascript.jpg",
+        image: "tecnologias/javascript.jpg",
         tools: ["ES6+", "jQuery", "TypeScript", "Webpack"]
       },
       {
         name: "Tailwind",
         description: "FrameworkCss",
-        image: "/tecnologias/tailwind.jpg",
+        image: "tecnologias/tailwind.jpg",
         tools: ["CSS"]
       },
       {
         name: "Bootstrap",
         description: "Framework Css",
-        image: "/tecnologias/bootstrap.png",
+        image: "tecnologias/bootstrap.png",
         tools: ["CSS","JS"]
       },
       {
         name: "Jquery",
         description: "Biblioteca de javascript que facilita las operaciones HTML",
-        image: "/tecnologias/jquery.jpg",
+        image: "tecnologias/jquery.jpg",
         tools: ["JS"]
       }
     ]
@@ -151,25 +151,25 @@ const techCategories = [
       {
         name: "CI/CD",
         description: "Integración y despliegue continuo",
-        image: "/tecnologias/git.jpg",
+        image: "tecnologias/git.jpg",
         tools: ["Jenkins", "GitHub Actions", "GitLab CI", "Docker"]
       },
       {
         name: "Cloud & Hosting",
         description: "Plataformas y servicios cloud",
-        image: "/tecnologias/cloud.jpg",
+        image: "tecnologias/cloud.jpg",
         tools: ["Firebase", "AWS", "DigitalOcean", "Heroku"]
       },
       {
         name: "Sistemas Linux",
         description: "Administración de servidores",
-        image: "/tecnologias/linux.jpg",
+        image: "tecnologias/linux.jpg",
         tools: ["Ubuntu 18.04", "CentOS", "Apache", "NGINX"]
       },
       {
         name: "Seguridad",
         description: "Herramientas de seguridad y monitoreo",
-        image: "/tecnologias/seguridad.jpg",
+        image: "tecnologias/seguridad.jpg",
         tools: ["SQLMap", "HTTPS", "Sentry", "SonarQube"]
       }
     ]
@@ -207,12 +207,12 @@ function TechCard({ name, description, image, features, tools }: TechCardProps) 
           <h3 className="text-2xl font-bold text-white mb-2">
             {name}
           </h3>
-          <p className="text-gray-300 mb-4 opacity-0 transform translate-y-4 transition-all duration-300 group-hover/card:opacity-100 group-hover/card:translate-y-0">
+          <p className="text-gray-300 mb-4 opacity-40 transform translate-y-4 transition-all duration-300 group-hover/card:opacity-100 group-hover/card:translate-y-0">
             {description}
           </p>
           
           {/* Features/Tools Tags */}
-          <div className="flex flex-wrap gap-2 opacity-0 transform translate-y-4 transition-all duration-300 group-hover/card:opacity-100 group-hover/card:translate-y-0">
+          <div className="flex flex-wrap gap-2 opacity-40 transform translate-y-4 transition-all duration-300 group-hover/card:opacity-100 group-hover/card:translate-y-0">
             {(features || tools || []).map((item) => (
               <span
                 key={item}
@@ -226,7 +226,7 @@ function TechCard({ name, description, image, features, tools }: TechCardProps) 
       </div>
 
       {/* Hover Effect Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent opacity-0 transition-opacity duration-300 group-hover/card:opacity-100" />
+      <div className="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent opacity-50 transition-opacity duration-300 group-hover/card:opacity-100" />
     </motion.div>
   );
 }

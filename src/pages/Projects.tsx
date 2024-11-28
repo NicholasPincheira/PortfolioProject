@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Ecotrend',
     description: 'Ecotrend es una plataforma que fomenta el reciclaje textil frente a la contaminación actual. Funciona como una red social para coordinar donaciones entre empresas y pymes, localizar o crear puntos de reciclaje, publicar blogs y cursos, y calcular huella de carbono. Incluye un feed interactivo para compartir contenido y un chatbot con IA que ofrece consejos prácticos sobre sostenibilidad y reciclaje.',
-    image: '/projects/ecotrend.jpg',
+    image: `${import.meta.env.BASE_URL}projects/ecotrend.jpg`,
     technologies: ['Laravel', 'PhpMyAdmin', 'PHP', 'MySQL', 'Jenkins', 'CI/CD', 'SonarQube'],
     gitlab: 'https://gitlab.com/duoclab/webinge',
     github: '',
@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'VentasApp',
     description: 'Aplicacion para la gestion de productos, calculo de impuesto, y estado de ordenes para una pyme, automizando procesos lentos y mejorando la efectividad del trabajo.',
-    image: '/projects/ventas.webp',
+    image: `${import.meta.env.BASE_URL}projects/ventas.webp`,
     technologies: ['Django', 'Django Admin', 'Python', 'firebase', 'python.anywere'],
     gitlab: '',
     github: 'https://github.com/NicholasPincheira/VentasApp-',
@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Machcargo',
     description: 'Proyecto para empresa dedicada al rubro de importaciones China/Chile, el cual consta de un sistema de gestion de importaciones, permitiendo al usuario cargar contenedores con productos y modificar el estado de estos, para que los clientes puedan realizar seguimiento a sus importaciones y crear solicitud de importaciones.',
-    image: '/projects/machcargo.png',
+    image: `${import.meta.env.BASE_URL}projects/machcargo.png`,
     technologies: ['Django', 'Django Admin', 'Python', 'PostgreSQL', 'Ubuntu', 'ChatGPT ApiBot'],
     github: 'https://github.com',
     live: ''
@@ -32,7 +32,7 @@ const projects = [
   {
     title: 'PetShop',
     description: 'E-Commerce desarrollado para un examen de desarrollo web, el cual consta con un sistema de creacion y gestion de productos e inventario, conjunto de un sistema de authenticacion y administracion de ventas cliente/vendedor.',
-    image: '/projects/petShop.jpg',
+    image: `${import.meta.env.BASE_URL}projects/petShop.jpg`,
     technologies: ['Django', 'Django Admin', 'Python', 'PostgreSQL', 'Ubuntu'],
     gitlab: '',
     github: 'https://github.com/NicholasPincheiraDuoc/Examen-Petshop/tree/main',

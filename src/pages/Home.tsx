@@ -13,7 +13,7 @@ function Home() {
         className="space-y-6"
       >
         <img
-          src="/icons/nicholas.jpg"
+          src={`${import.meta.env.BASE_URL}icons/nicholas.jpg`}
           alt="Profile"
           className="w-32 h-32 rounded-full border-4 border-indigo-500 mx-auto"
         />

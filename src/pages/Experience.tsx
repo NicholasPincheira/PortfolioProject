@@ -76,11 +76,11 @@ const experience = [
               </p>
             </>
           ),
-          urlimage: "/img/Gino.jpg",
+          urlimage: "img/Gino.jpg",
           badges: [
             {
               text: "Prestashop",
-              icon: "/icons/prestashop.png",
+              icon: "icons/prestashop.png",
               url: "https://www.prestashop.com/",
             },
             {

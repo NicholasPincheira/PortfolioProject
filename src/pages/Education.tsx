@@ -11,14 +11,14 @@ const education = [
         institution: 'Duoc UC',
         period: '2018 - 2024',
         description: 'Especialización en desarrollo de software y gestion de proyectos informaticos.',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'Tecnico en Electronica',
         institution: 'Liceo Enseñanza Media',
         period: '2014 - 2018',
         description: 'Titulo Enseñanza Media',
-        urlimage: '/img/liceo.jpg'
+        urlimage: 'img/liceo.jpg'
       }
     ]
   },
@@ -31,7 +31,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN ANÁLISIS Y PLANIFICACIÓN DE REQUERIMIENTOS INFORMÁTICOS',
@@ -39,7 +39,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN ARQUITECTURA DE SOFTWARE',
@@ -47,7 +47,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN CALIDAD DE SOFTWARE',
@@ -55,7 +55,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN GESTIÓN DE PROYECTOS INFORMÁTICOS',
@@ -63,7 +63,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN INTELIGENCIA DE NEGOCIOS',
@@ -71,7 +71,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO EN PROGRAMACIÓN DE SOFTWARE',
@@ -79,7 +79,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
       {
         title: 'CERTIFICADO INTERNACIONAL EN NIVEL INTERMEDIO',
@@ -87,7 +87,7 @@ const education = [
         period: '2024',
         description: 'ID de la credencial 4236766627',
         validation: 'Validar Certificado',
-        urlimage: '/img/duoc.jpg'
+        urlimage: 'img/duoc.jpg'
       },
     ]
   }

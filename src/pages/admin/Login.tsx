@@ -31,7 +31,7 @@ export default function Login() {
           <div className="inline-block p-3 rounded-full bg-indigo-500/20 mb-4">
             <Lock className="w-8 h-8 text-indigo-400" />
           </div>
-          <h2 className="text-2xl font-bold">Admin Login</h2>
+          <h2 className="text-2xl bg-gradient-to-r bg-clip-text text-transparent from-indigo-800 to-white font-bold">Admin Login</h2>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -42,7 +42,7 @@ export default function Login() {
           )}
 
           <div>
-            <label className="block text-sm font-medium mb-2">Username</label>
+            <label className="block bg-gradient-to-r bg-clip-text text-transparent from-emerald-200 to-white font-bold text-sm mb-2">Username</label>
             <input
               type="text"
               value={username}
@@ -53,7 +53,7 @@ export default function Login() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium mb-2">Password</label>
+            <label className="block bg-gradient-to-r bg-clip-text text-transparent from-emerald-200 to-white font-bold text-sm mb-2">Password</label>
             <input
               type="password"
               value={password}
@@ -65,7 +65,8 @@ export default function Login() {
 
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-indigo-500 hover:bg-indigo-600 rounded font-medium transition-colors"
+            
+            className="w-full text-white py-2 px-4 bg-indigo-500 hover:bg-indigo-600 rounded text-sh font-medium transition-colors"
           >
             Sign In
           </button>
